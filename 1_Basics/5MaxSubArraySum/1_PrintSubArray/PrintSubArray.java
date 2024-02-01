@@ -12,6 +12,6 @@ public class PrintSubArray {
                 System.out.println();   
             }
         }
-        System.out.println();
+        
     }
 }

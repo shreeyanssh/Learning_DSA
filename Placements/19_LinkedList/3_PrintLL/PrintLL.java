@@ -27,13 +27,18 @@ public class PrintLL {
             head = tail = newNode;
         }
         tail.next = newNode;
-        newNode = tail;
+        tail = newNode;
     }
 
     public void printLL(){
-        int currNode = head.data;
-        while(currNode != null){
-            System.out.println(currNode + "-->");
+        if(head == null){
+            System.out.println("List is empty");
+            return;
+        }
+        Node currentNode = head;
+        while(currentNode != null){
+            System.out.print(currentNode.data + "->");
+            currentNode = currentNode.next;
         }
     }
     

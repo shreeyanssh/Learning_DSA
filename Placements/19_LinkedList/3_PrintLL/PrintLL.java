@@ -40,6 +40,7 @@ public class PrintLL {
             System.out.print(currentNode.data + "->");
             currentNode = currentNode.next;
         }
+        System.out.println("Null");
     }
     
     public static void main(String[] args){

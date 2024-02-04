@@ -9,7 +9,7 @@ public class AddMiddle {
         }
     }    
 
-    public static Node head;
+    public Node head;
     public static Node tail;
 
     public void addFirst(int data){

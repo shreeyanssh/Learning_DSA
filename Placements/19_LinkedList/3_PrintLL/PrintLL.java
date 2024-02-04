@@ -44,12 +44,12 @@ public class PrintLL {
     }
     
     public static void main(String[] args){
-            PrintLL list = new PrintLL();
-            list.addFirst(2);
-            list.addFirst(1);
-            list.addLast(3);
-            list.addLast(4);
+        PrintLL list = new PrintLL();
+        list.addFirst(2);
+        list.addFirst(1);
+        list.addLast(3);
+        list.addLast(4);
 
-            list.printLL();
-        }
+        list.printLL();
+    }
 }
